@@ -32,7 +32,7 @@ namespace WebAPIProjectPractice.Controllers
                     return Ok(count);
                 }
                 else {
-                 return NotFound("Records not found");
+                 return NotFound("Records not available");
                 }
             }
 
